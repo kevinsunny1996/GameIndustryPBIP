@@ -1,0 +1,137 @@
+{
+  "config": "{\"version\":\"5.56\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU06\",\"version\":\"5.55\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "publicCustomVisuals": [
+    "multiLineChartA7F3AE9EF91E48C78A2807BCA25C2765"
+  ],
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU06",
+            "path": "BaseThemes/CY24SU06.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Game Stats",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "7717f284e4075911751d",
+      "ordinal": 1,
+      "visualContainers": [],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "Input Data Distribution",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "c3f667899092316a0300",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"122acee1030dec8a1b62\",\"layouts\":[{\"id\":0,\"position\":{\"x\":272.6916646763793,\"y\":48.913303080964894,\"z\":3003,\"width\":250.68067828994506,\"height\":128.39742058753285,\"tabOrder\":3003}}],\"singleVisual\":{\"visualType\":\"cardVisual\",\"projections\":{\"Data\":[{\"queryRef\":\"CountNonNull(dim_genres.genre_id)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"dim_genres\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"genre_id\"}},\"Function\":5},\"Name\":\"CountNonNull(dim_genres.genre_id)\",\"NativeReferenceName\":\"Genre categories extracted...\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"genre_id\"}},\"Function\":5}}}]},\"columnProperties\":{\"CountNonNull(dim_genres.genre_id)\":{\"displayName\":\"Genre categories extracted...\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 128.40,
+          "width": 250.68,
+          "x": 272.69,
+          "y": 48.91,
+          "z": 3003.00
+        },
+        {
+          "config": "{\"name\":\"140d390fe20a0ae22060\",\"layouts\":[{\"id\":0,\"position\":{\"x\":781.3900167184141,\"y\":48.913303080964894,\"z\":3005,\"width\":239.67518509672797,\"height\":128.39742058753285,\"tabOrder\":3005}}],\"singleVisual\":{\"visualType\":\"cardVisual\",\"projections\":{\"Data\":[{\"queryRef\":\"CountNonNull(dim_publishers.publisher_id)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"dim_publishers\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"publisher_id\"}},\"Function\":5},\"Name\":\"CountNonNull(dim_publishers.publisher_id)\",\"NativeReferenceName\":\"Publishers Extracted so far...\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"publisher_id\"}},\"Function\":5}}}]},\"columnProperties\":{\"CountNonNull(dim_publishers.publisher_id)\":{\"displayName\":\"Publishers Extracted so far...\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 128.40,
+          "width": 239.68,
+          "x": 781.39,
+          "y": 48.91,
+          "z": 3005.00
+        },
+        {
+          "config": "{\"name\":\"532150a037b42b83e0b5\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":48.913303080964894,\"z\":3002,\"width\":272.6916646763793,\"height\":128.39742058753285,\"tabOrder\":3002}}],\"singleVisual\":{\"visualType\":\"cardVisual\",\"projections\":{\"Data\":[{\"queryRef\":\"CountNonNull(fct_games.game_id)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"fct_games\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"game_id\"}},\"Function\":5},\"Name\":\"CountNonNull(fct_games.game_id)\",\"NativeReferenceName\":\"Total Games Extracted so far...\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"game_id\"}},\"Function\":5}}}]},\"columnProperties\":{\"CountNonNull(fct_games.game_id)\":{\"displayName\":\"Total Games Extracted so far...\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 128.40,
+          "width": 272.69,
+          "x": 0.00,
+          "y": 48.91,
+          "z": 3002.00
+        },
+        {
+          "config": "{\"name\":\"66b81cf2c4b5c0335000\",\"layouts\":[{\"id\":0,\"position\":{\"x\":666.4437544781466,\"y\":469.567709577263,\"z\":3000,\"width\":613.8619536661095,\"height\":250.68067828994506,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"dim_publishers.publisher_name\",\"active\":true}],\"Y\":[{\"queryRef\":\"CountNonNull(dim_publishers.publishers_game_count)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"dim_publishers\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"publisher_name\"},\"Name\":\"dim_publishers.publisher_name\",\"NativeReferenceName\":\"publisher_name\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"publishers_game_count\"}},\"Function\":0},\"Name\":\"CountNonNull(dim_publishers.publishers_game_count)\",\"NativeReferenceName\":\"Sum of publishers_game_count\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"publishers_game_count\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"titleText\":{\"expr\":{\"Literal\":{\"Value\":\"'Publisher Name'\"}}}}}],\"valueAxis\":[{\"properties\":{\"titleText\":{\"expr\":{\"Literal\":{\"Value\":\"'Games published by Publisher'\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"labelPosition\":{\"expr\":{\"Literal\":{\"Value\":\"'InsideEnd'\"}}},\"enableTitleDataLabel\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Game Publisher Distribution'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 250.68,
+          "width": 613.86,
+          "x": 666.44,
+          "y": 469.57,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"782f772e5b10b35d9901\",\"layouts\":[{\"id\":0,\"position\":{\"x\":11.0054931932171,\"y\":469.567709577263,\"z\":2000,\"width\":656.6610938619536,\"height\":250.68067828994506,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"dim_genres.genre_name\",\"active\":true}],\"Y\":[{\"queryRef\":\"CountNonNull(dim_genres.genre_games_count)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"dim_genres\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"genre_name\"},\"Name\":\"dim_genres.genre_name\",\"NativeReferenceName\":\"genre_name\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"genre_games_count\"}},\"Function\":0},\"Name\":\"CountNonNull(dim_genres.genre_games_count)\",\"NativeReferenceName\":\"Sum of genre_games_count\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"genre_games_count\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"titleText\":{\"expr\":{\"Literal\":{\"Value\":\"'Genre Category'\"}}}}}],\"valueAxis\":[{\"properties\":{\"titleText\":{\"expr\":{\"Literal\":{\"Value\":\"'Genre count by category'\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"labelPosition\":{\"expr\":{\"Literal\":{\"Value\":\"'InsideEnd'\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Genre Categories Distribution'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 250.68,
+          "width": 656.66,
+          "x": 11.01,
+          "y": 469.57,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"908c9c29d469399c5490\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":177.31072366849773,\"z\":0,\"width\":656.6610938619536,\"height\":292.2569859087652,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"dim_platforms.platform_name\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(dim_platforms.platform_games_count)\"}],\"Tooltips\":[{\"queryRef\":\"Min(dim_platforms.platform_name)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"dim_platforms\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"platform_name\"},\"Name\":\"dim_platforms.platform_name\",\"NativeReferenceName\":\"platform_name\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"platform_games_count\"}},\"Function\":0},\"Name\":\"Sum(dim_platforms.platform_games_count)\",\"NativeReferenceName\":\"Sum of platform_games_count\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"platform_name\"}},\"Function\":3},\"Name\":\"Min(dim_platforms.platform_name)\",\"NativeReferenceName\":\"Platform Name\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"platform_games_count\"}},\"Function\":0}}}]},\"columnProperties\":{\"Min(dim_platforms.platform_name)\":{\"displayName\":\"Platform Name\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"legend\":[{\"properties\":{\"titleText\":{\"expr\":{\"Literal\":{\"Value\":\"'Platform Name'\"}}}}}],\"categoryAxis\":[{\"properties\":{\"titleText\":{\"expr\":{\"Literal\":{\"Value\":\"'Platform Name'\"}}}}}],\"valueAxis\":[{\"properties\":{\"titleText\":{\"expr\":{\"Literal\":{\"Value\":\"'Platform Share '\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"labelPosition\":{\"expr\":{\"Literal\":{\"Value\":\"'InsideEnd'\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Platfform wise Game distribution'\"}}}}}]}}}",
+          "filters": "[{\"expression\":{\"Arithmetic\":{\"Left\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"dim_platforms\"}},\"Property\":\"platform_games_count\"}},\"Function\":5}},\"Right\":{\"ScopedEval\":{\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"dim_platforms\"}},\"Property\":\"platform_games_count\"}},\"Function\":5}},\"Scope\":[]}},\"Operator\":3}},\"type\":\"Advanced\",\"howCreated\":1,\"isHiddenInViewMode\":false}]",
+          "height": 292.26,
+          "width": 656.66,
+          "x": 0.00,
+          "y": 177.31,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"96b12f0832e0ddd36220\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1021.0652018151421,\"y\":48.913303080964894,\"z\":3006,\"width\":259.24050632911394,\"height\":128.39742058753285,\"tabOrder\":3006}}],\"singleVisual\":{\"visualType\":\"cardVisual\",\"projections\":{\"Data\":[{\"queryRef\":\"CountNonNull(dim_ratings.rating_id)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"dim_ratings\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"rating_id\"}},\"Function\":5},\"Name\":\"CountNonNull(dim_ratings.rating_id)\",\"NativeReferenceName\":\"User Ratings Categories Total\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"rating_id\"}},\"Function\":5}}}]},\"columnProperties\":{\"CountNonNull(dim_ratings.rating_id)\":{\"displayName\":\"User Ratings Categories Total\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 128.40,
+          "width": 259.24,
+          "x": 1021.07,
+          "y": 48.91,
+          "z": 3006.00
+        },
+        {
+          "config": "{\"name\":\"a10322361b10801c91b0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":666.4437544781466,\"y\":177.31072366849773,\"z\":1000,\"width\":613.8619536661095,\"height\":292.2569859087652,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"donutChart\",\"projections\":{\"Y\":[{\"queryRef\":\"CountNonNull(dim_ratings.rating_count)\"}],\"Category\":[{\"queryRef\":\"dim_ratings.rating_category\",\"active\":true}],\"Series\":[{\"queryRef\":\"dim_ratings.rating_category\"}],\"Tooltips\":[{\"queryRef\":\"CountNonNull(dim_ratings.rating_count)1\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"dim_ratings\",\"Type\":0}],\"Select\":[{\"Arithmetic\":{\"Left\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"rating_count\"}},\"Function\":0}},\"Right\":{\"ScopedEval\":{\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"rating_count\"}},\"Function\":0}},\"Scope\":[]}},\"Operator\":3},\"Name\":\"CountNonNull(dim_ratings.rating_count)\",\"NativeReferenceName\":\"Percent Share of Rating\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"rating_category\"},\"Name\":\"dim_ratings.rating_category\",\"NativeReferenceName\":\"Rating Category Name\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"rating_count\"}},\"Function\":5},\"Name\":\"CountNonNull(dim_ratings.rating_count)1\",\"NativeReferenceName\":\"Count of rating_count\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Arithmetic\":{\"Left\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"rating_count\"}},\"Function\":0}},\"Right\":{\"ScopedEval\":{\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"rating_count\"}},\"Function\":0}},\"Scope\":[]}},\"Operator\":3}}}]},\"columnProperties\":{\"CountNonNull(dim_ratings.rating_count)\":{\"displayName\":\"Percent Share of Rating\"},\"dim_ratings.rating_category\":{\"displayName\":\"Rating Category Name\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"legend\":[{\"properties\":{\"titleText\":{\"expr\":{\"Literal\":{\"Value\":\"'Rating Category Name'\"}}}}}],\"labels\":[{\"properties\":{\"labelStyle\":{\"expr\":{\"Literal\":{\"Value\":\"'Category, percent of total'\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Percent Share of Rating Category'\"}}}}}]}}}",
+          "filters": "[{\"expression\":{\"Arithmetic\":{\"Left\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"dim_ratings\"}},\"Property\":\"rating_category\"}},\"Function\":5}},\"Right\":{\"ScopedEval\":{\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"dim_ratings\"}},\"Property\":\"rating_category\"}},\"Function\":5}},\"Scope\":[]}},\"Operator\":3}},\"type\":\"Advanced\",\"howCreated\":1,\"isHiddenInViewMode\":false}]",
+          "height": 292.26,
+          "width": 613.86,
+          "x": 666.44,
+          "y": 177.31,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"a1722a11eeac00b50e25\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":3001,\"width\":1280.305708144256,\"height\":63.58729400525436,\"tabOrder\":3001}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Extracted Data Distribution\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"24pt\"}}],\"horizontalTextAlignment\":\"center\"}]}}]}}}",
+          "filters": "[]",
+          "height": 63.59,
+          "width": 1280.31,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 3001.00
+        },
+        {
+          "config": "{\"name\":\"be3c28e5d03b78d33410\",\"layouts\":[{\"id\":0,\"position\":{\"x\":523.3723429663244,\"y\":48.913303080964894,\"z\":3004,\"width\":258.0176737520898,\"height\":128.39742058753285,\"tabOrder\":3004}}],\"singleVisual\":{\"visualType\":\"cardVisual\",\"projections\":{\"Data\":[{\"queryRef\":\"CountNonNull(dim_platforms.platform_id)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"dim_platforms\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"platform_id\"}},\"Function\":5},\"Name\":\"CountNonNull(dim_platforms.platform_id)\",\"NativeReferenceName\":\"Total Platforms data gathered...\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"platform_id\"}},\"Function\":5}}}]},\"columnProperties\":{\"CountNonNull(dim_platforms.platform_id)\":{\"displayName\":\"Total Platforms data gathered...\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 128.40,
+          "width": 258.02,
+          "x": 523.37,
+          "y": 48.91,
+          "z": 3004.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}

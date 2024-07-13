@@ -1,0 +1,139 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 428.95552071605317,
+        "y": 87.402207763431392
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 891.52191004884651,
+            "y": 198.02989418759637
+          },
+          "nodeIndex": "bridge_games_genre",
+          "nodeLineageTag": "b6626a8d-29d2-44f0-8d6b-29d332b81dd0",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 779.87809507335862,
+            "y": 643.37468553447536
+          },
+          "nodeIndex": "bridge_games_platforms",
+          "nodeLineageTag": "4e71dc4c-3ec9-455a-83e4-638db3b8c7b5",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 299.92469042205062,
+            "y": 233.61053576631002
+          },
+          "nodeIndex": "bridge_games_publishers",
+          "nodeLineageTag": "33d65df3-5ad1-44fd-ac49-dd9f10c7dc22",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 1175.75283839782,
+            "y": 54.400722169716914
+          },
+          "nodeIndex": "dim_genres",
+          "nodeLineageTag": "2ec74412-ae8f-4402-af46-bcd78e7a3de6",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 492.01238154093039,
+            "y": 830.66856198177118
+          },
+          "nodeIndex": "dim_platforms",
+          "nodeLineageTag": "570f3b65-1ef2-47ed-9d8d-4ad809fb8fea",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 5
+        },
+        {
+          "location": {
+            "x": 10,
+            "y": 75.4393827650731
+          },
+          "nodeIndex": "dim_publishers",
+          "nodeLineageTag": "a2b9465e-b272-4144-8108-e35140f50523",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 6
+        },
+        {
+          "location": {
+            "x": 305.62932239624297,
+            "y": 624.23798427230452
+          },
+          "nodeIndex": "dim_ratings",
+          "nodeLineageTag": "a1393c70-884f-4b66-810d-05a9eaa759ba",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 7
+        },
+        {
+          "location": {
+            "x": 601.53199722468958,
+            "y": -10
+          },
+          "nodeIndex": "dim_time",
+          "nodeLineageTag": "d7b91d40-f5e0-4137-8b4b-1ba635c364d8",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 9
+        },
+        {
+          "location": {
+            "x": 589.92665454463486,
+            "y": 294.7161111624871
+          },
+          "nodeIndex": "fct_games",
+          "nodeLineageTag": "693c995e-edf0-4962-915a-af36c9748b69",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 8
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 198.621991990629,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}
